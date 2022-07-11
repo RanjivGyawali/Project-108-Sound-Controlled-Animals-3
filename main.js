@@ -12,7 +12,7 @@ function StartClassification() {
 }
 
 function modelReady() {
-    classifier.classify(gotResults);
+    classifier.classify(gotResult);
 }
 function gotResult(error, results) {
     if(error){
